@@ -3,6 +3,6 @@ services:
   frontend:
     build:
       context: ./client
-    image: ragu162004/client-app
+    image: 22csr167/spot
     ports:
       - "3000:80"
