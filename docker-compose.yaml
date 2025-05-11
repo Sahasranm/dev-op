@@ -2,7 +2,7 @@ version: '3'
 services:
   frontend:
     build:
-      context: ./client
+      context: ./Frontend
     image: 22csr167/spot
     ports:
       - "3000:80"
