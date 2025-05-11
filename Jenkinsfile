@@ -5,7 +5,7 @@ pipeline {
         VERSION = "${BUILD_NUMBER}"
         FRONTEND_IMAGE = "22csr167/spot"
        // BACKEND_IMAGE = "ragu162004/server-app"
-        DOCKER_CREDENTIALS_ID = 'github_cred'
+        DOCKER_CREDENTIALS_ID = '22csr167'
     }
 
     stages {
